@@ -1,0 +1,10 @@
+.cardContent {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

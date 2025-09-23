@@ -1,0 +1,53 @@
+@import './var.css';
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+
+// 解决抽屉弹出时，body宽度变化的问题
+.el-popup-parent--hidden {
+  width: 100% !important;
+}
+.el-card {
+  border: none !important;
+}
+.layout-border__right:after{
+  background-color: transparent !important;
+}
+.el-menu {
+    padding: 4px 12px !important;
+}
+.el-menu-item{
+  height: 32px !important;
+  border-radius: 4px !important;
+  margin-bottom: 4px !important;
+  font-size: 13px !important;
+}
+.el-menu-item [class^=el-icon]{
+  margin-right: 12px !important;
+}
+.el-menu .el-menu-item.is-active{
+  font-weight: bold;
+}
+.el-table--border .el-table__cell {
+    border-right: none !important;
+}
+.el-card__header{
+  border-bottom: none !important;
+}
+.el-table thead.is-group th.el-table__cell {
+    background: #f6f8fa !important;
+    font-weight: 400 !important;
+    color: #42464e !important;
+}
+.el-button--primary{
+  color: #1664ff !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  font-size: 13px !important;
+}
+.el-table {
+  border-radius: 4px; /* 设置圆角 */
+  font-size: 13px !important;
+}
+.el-table--border .el-table__cell{
+  color: #0c0d0e !important;
+}
