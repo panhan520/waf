@@ -5,7 +5,8 @@ import { Table, TableColumn } from '@/components/Table'
 import { getTableListApi } from '@/api/table'
 import { TableData } from '@/api/table/types'
 import { ref, h } from 'vue'
-import { ElTag, ElCard, ElDivider } from 'element-plus'
+import { ElTag, ElCard, ElDivider, ElIcon } from 'element-plus'
+import { ArrowRight } from '@element-plus/icons-vue'
 import styles from './index.module.scss'
 
 interface Params {
